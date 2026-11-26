@@ -63,7 +63,8 @@ Every script writes its results (`.json`) next to itself, and the scripts in `pa
 |---|---|
 | `paper/fig_check.py` | the 44 cases of Section 4.3 (`fig3_rows.json`) and the numbers behind the figures |
 | `paper/ci_dataset_b.py` | Jacobian 95 % intervals of dataset B |
-| `paper/boot_ci_v11.py` | bootstrap intervals of dataset B (Section 4.1) |
+| `paper/boot_ci_v13.py` | bootstrap intervals of dataset B, 1000 draws (Section 4.1) |
+| `paper/analysis_v13.py` | Kramers–Kronig checks, residual map (Fig. 3c), calibrate-once breakdown, fixed-threshold folds |
 | `paper/holdout_v10.py` | out-of-sample test of the misfit-to-arc threshold (Table 1) |
 | `paper/tables_2_3.py` | Tables 2 and 3 |
 | `paper/make_fig1_v11.py` | Fig. 1 |
