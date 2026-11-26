@@ -1,0 +1,8 @@
+data/
+work/
+figures/
+__pycache__/
+*.pyc
+*.json
+*.npz
+*.log
